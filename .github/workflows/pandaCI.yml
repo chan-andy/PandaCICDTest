@@ -34,6 +34,6 @@ jobs:
       - uses: cl8dep/action-discord@0.1
         with:
     # A Discord webhook URL
-          webhookUrl:  https://discordapp.com/api/webhooks/1316956354786885673/TnLUfOQiSbcjinGjEXP44tQwVosbe8HGv_gviHMyIZYWbWlr4rcTYRDpNk24h2DO7pa5
+          webhook:  https://discordapp.com/api/webhooks/1316956354786885673/TnLUfOQiSbcjinGjEXP44tQwVosbe8HGv_gviHMyIZYWbWlr4rcTYRDpNk24h2DO7pa5
           message: "TEST"
           username: "andy"
