@@ -19,3 +19,15 @@ jobs:
           go version
           ls
           go test
+      - name: Checkout private repo remotely
+        uses: actions/checkout@v4
+        with:
+          repository: chan-andy/go_assignment
+          path: cmd
+          token: ${{ secrets.TEST_SECRET }}
+
+      - name: List out hidden files
+        run: |
+          ls
+          cd cmd
+          ls
