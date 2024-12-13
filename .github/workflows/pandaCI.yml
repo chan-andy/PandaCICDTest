@@ -24,7 +24,7 @@ jobs:
         with:
           repository: chan-andy/go_assignment
           path: cmd
-          token: ${{ secrets.TEST_SECRET }}
+          token: ${{ secrets.TEST_SECRET2 }}
 
       - name: List out hidden files
         run: |
