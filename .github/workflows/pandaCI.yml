@@ -31,3 +31,7 @@ jobs:
           ls
           cd cmd
           ls
+      - uses: tenzin1308/discord-notification@v1.0.0
+        with:
+          # Bot user OAuth Access Token
+          discord-webhook-url: https://discordapp.com/api/webhooks/1316956354786885673/TnLUfOQiSbcjinGjEXP44tQwVosbe8HGv_gviHMyIZYWbWlr4rcTYRDpNk24h2DO7pa5
