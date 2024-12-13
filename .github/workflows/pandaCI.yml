@@ -31,7 +31,7 @@ jobs:
           ls
           cd cmd
           ls
-      - uses: discord-actions/message@v2
+      - uses: cl8dep/action-discord@0.1
         with:
     # A Discord webhook URL
           webhookUrl:  https://discordapp.com/api/webhooks/1316956354786885673/TnLUfOQiSbcjinGjEXP44tQwVosbe8HGv_gviHMyIZYWbWlr4rcTYRDpNk24h2DO7pa5
